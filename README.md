@@ -36,3 +36,7 @@ The simple drawing engine is based on Apple's Touch Canvas example
 ## How To Use
 Click the "New Drawing" Button and select from three preloaded examples. 
 You can also use any picture in your phone!, for better results choose a "Coloreable" image, pure black & white with defined areas to color. A filter is applied to any image you choose, but the results might not be what you are expecting with normal pictures
+
+You can run a debug version of the drawing engine by running the app with
+`-debugStrokes
+` in the launch arguments to only draw small dots in the places touches were collected
