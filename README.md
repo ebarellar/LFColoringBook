@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/ebarellar/LFColoringBook/blob/master/Images/coloringVideo" />
+</p>
+
 # LFColoringBook
 An iOS/UIKit/CoreGraphics/Swift implementation of a Coloring Book app
 
