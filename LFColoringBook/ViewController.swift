@@ -47,8 +47,8 @@ class ViewController: UIViewController {
         
         //Recreate the last used image
         let (image,optimized) = self.retrieveSavedImage()
-        if let image = image ?? UIImage(named:"mandala1.png"),
-           let optimized = optimized ?? true{
+        if let image = image ?? UIImage(named:"mandala1.png"){
+           let optimized = optimized ?? true
             self.createColoringBookView(with: image, optimized: optimized)
         }
         
